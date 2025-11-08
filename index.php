@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Resume</title>
+    <link rel="stylesheet" href="style.css" />
+    <style type="text/css">
+        /* Basic resume styling */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #f5f6fa;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.title {
+    font-weight: 500;
+    color: #555;
+}
+
+.contact {
+    font-size: 0.9em;
+    color: #777;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    color: #2c3e50;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "• ";
+    color: #3498db;
+    font-weight: bold;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job h3 {
+    margin: 0;
+    color: #34495e;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #888;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Name</h1>
+            <p class="title">Web Developer | Designer | Programmer</p>
+            <p class="contact">
+                📧 your.email@example.com | 📱 +1 234 567 890 | 🌐 yourwebsite.com | 💼 github.com/yourusername
+            </p>
+        </header>
+
+        <section class="summary">
+            <h2>Profile Summary</h2>
+            <p>
+                Passionate web developer with 3+ years of experience creating responsive, user-friendly websites and web apps.
+                Skilled in HTML, CSS, JavaScript, and modern frameworks.
+            </p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 / CSS3 / JavaScript (ES6+)</li>
+                <li>React.js / Node.js / Express</li>
+                <li>Git / GitHub / REST APIs</li>
+                <li>UI/UX Design / Figma</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>Frontend Developer | ABC Company</h3>
+                <span class="date">Jan 2022 – Present</span>
+                <p>Developed and maintained responsive web apps using React and RESTful APIs.</p>
+            </div>
+            <div class="job">
+                <h3>Web Designer | XYZ Studio</h3>
+                <span class="date">Jun 2020 – Dec 2021</span>
+                <p>Created modern website designs and implemented them using HTML, CSS, and JavaScript.</p>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <p><strong>B.Sc. in Computer Science</strong> — University Name, 2020</p>
+        </section>
+
+        <footer>
+            <p>© 2025 Your Name — All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
