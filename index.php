@@ -363,7 +363,7 @@
       </div>
 
       <div class="col-md-5 text-center">
-        <img src="image/prs.jpg" class="img-responsive mb-3" alt="Profile" width="100%" />
+        <img src="prs.jpg" class="img-responsive mb-3" alt="Profile" width="100%" />
       </div>
     </div>
   </section>
@@ -414,7 +414,7 @@
         <div class="col-lg-3 text-center position-relative order-1 order-lg-2 mb-4 mb-lg-0 reveal">
           <div class="pulse-ring"></div>
           <div class="card-img-circle mx-auto shadow-sm" style="position:relative;z-index:2;">
-            <img src="image/pr.jpg" alt="Profile" style="width:100%;height:100%;object-fit:cover;display:block">
+            <img src="pr.jpg" alt="Profile" style="width:100%;height:100%;object-fit:cover;display:block">
           </div>
         </div>
         <div class="col-lg-9 order-1 order-lg-2 reveal text-left">
