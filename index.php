@@ -670,8 +670,7 @@
 
   <footer class="text-center">
     <div class="container">
-      <p class="mb-1">© 2025 — Built with Bootstrap 5</p>
-      <small class="text-muted">Made with ❤️</small>
+      <p class="mb-1">© 2025 — Built with ❤️ by Ganesh Kumar</p>
     </div>
   </footer>
 
